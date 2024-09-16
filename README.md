@@ -1,2 +1,3 @@
 # 💤 LazyVim settings
-# Theme: Tokyonight dark
+
+## Theme: Rose-pine

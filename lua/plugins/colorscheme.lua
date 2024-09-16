@@ -1,9 +1,19 @@
 return {
-
-  -- tokyonight
+  -- Themes
+  { "rebelot/kanagawa.nvim" },
+  { "folke/tokyonight.nvim" },
+  { "rose-pine/neovim", name = "rose-pine" },
   {
-    "folke/tokyonight.nvim",
-    lazy = true,
-    opts = { style = "night" },
+    "AlexvZyl/nordic.nvim",
+    lazy = false,
+    priority = 1000,
+  },
+
+  -- Load theme
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "rose-pine",
+    },
   },
 }
