@@ -20,11 +20,15 @@ return {
     "AlexvZyl/nordic.nvim",
     lazy = false,
     priority = 1000,
+    config = function()
+      require("nordic").load()
+    end,
   },
   { "Shatur/neovim-ayu" },
   { "marko-cerovac/material.nvim" },
   { "catppuccin/nvim", lazy = true },
   { "shaunsingh/nord.nvim" },
+  { "rmehri01/onenord.nvim" },
 
   -- Load theme
   {
