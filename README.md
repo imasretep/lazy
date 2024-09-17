@@ -1,3 +1,3 @@
 # 💤 LazyVim settings
 
-## Theme: Ayu-dark
+## Theme: Nordic
