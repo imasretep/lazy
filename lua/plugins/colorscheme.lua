@@ -1,6 +1,19 @@
 return {
   -- Themes
-  { "rebelot/kanagawa.nvim" },
+  {
+    "rebelot/kanagawa.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {
+      overrides = function()
+        return {
+          NormalFloat = { bg = "none" },
+          FloatBorder = { bg = "none" },
+          FloatTitle = { bg = "none" },
+        }
+      end,
+    },
+  },
   { "folke/tokyonight.nvim" },
   { "rose-pine/neovim", name = "rose-pine" },
   {
@@ -11,6 +24,7 @@ return {
   { "Shatur/neovim-ayu" },
   { "marko-cerovac/material.nvim" },
   { "catppuccin/nvim", lazy = true },
+  { "shaunsingh/nord.nvim" },
 
   -- Load theme
   {
@@ -18,44 +32,5 @@ return {
     opts = {
       colorscheme = "nordic",
     },
-    -- opts = {
-    --   colorscheme = "catppuccin",
-    --   integrations = {
-    --     aerial = true,
-    --     alpha = true,
-    --     cmp = true,
-    --     dashboard = true,
-    --     flash = true,
-    --     grug_far = true,
-    --     gitsigns = true,
-    --     headlines = true,
-    --     illuminate = true,
-    --     indent_blankline = { enabled = true },
-    --     leap = true,
-    --     lsp_trouble = true,
-    --     mason = true,
-    --     markdown = true,
-    --     mini = true,
-    --     native_lsp = {
-    --       enabled = true,
-    --       underlines = {
-    --         errors = { "undercurl" },
-    --         hints = { "undercurl" },
-    --         warnings = { "undercurl" },
-    --         information = { "undercurl" },
-    --       },
-    --     },
-    --     navic = { enabled = true, custom_bg = "lualine" },
-    --     neotest = true,
-    --     neotree = true,
-    --     noice = true,
-    --     notify = true,
-    --     semantic_tokens = true,
-    --     telescope = true,
-    --     treesitter = true,
-    --     treesitter_context = true,
-    --     which_key = true,
-    --   },
-    -- },
   },
 }
