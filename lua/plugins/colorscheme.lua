@@ -1,19 +1,19 @@
 return {
   -- Themes
-  {
-    "rebelot/kanagawa.nvim",
-    lazy = false,
-    priority = 1000,
-    opts = {
-      overrides = function()
-        return {
-          NormalFloat = { bg = "none" },
-          FloatBorder = { bg = "none" },
-          FloatTitle = { bg = "none" },
-        }
-      end,
-    },
-  },
+  -- {
+  --   "rebelot/kanagawa.nvim",
+  --   lazy = false,
+  --   priority = 1000,
+  --   opts = {
+  --     overrides = function()
+  --       return {
+  --         NormalFloat = { bg = "none" },
+  --         FloatBorder = { bg = "none" },
+  --         FloatTitle = { bg = "none" },
+  --       }
+  --     end,
+  --   },
+  -- },
   { "folke/tokyonight.nvim" },
   { "rose-pine/neovim", name = "rose-pine" },
   {
@@ -35,7 +35,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "nightfox",
+      colorscheme = "nordic",
     },
   },
 }
