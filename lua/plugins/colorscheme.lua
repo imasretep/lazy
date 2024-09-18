@@ -29,12 +29,13 @@ return {
   { "catppuccin/nvim", lazy = true },
   { "shaunsingh/nord.nvim" },
   { "rmehri01/onenord.nvim" },
+  { "EdenEast/nightfox.nvim" },
 
   -- Load theme
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "nordic",
+      colorscheme = "nightfox",
     },
   },
 }

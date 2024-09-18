@@ -1,3 +1,3 @@
 # 💤 LazyVim settings
 
-## Theme: Nordic
+## Theme: Nightfox
