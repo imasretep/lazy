@@ -1,3 +1,3 @@
 # 💤 LazyVim settings
 
-## Theme: Nightfox
+## Theme: Rose-pine
