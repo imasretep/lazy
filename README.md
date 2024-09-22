@@ -1,3 +1,3 @@
 # 💤 LazyVim settings
 
-## Theme: Rose-pine
+## Theme: Ayu-mirage
