@@ -1,3 +1,3 @@
 # 💤 LazyVim settings
 
-## Theme: Ayu-mirage
+## Theme: Tokyonight-moon
