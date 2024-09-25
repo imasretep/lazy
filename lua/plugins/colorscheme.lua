@@ -26,12 +26,13 @@ return {
       })
     end,
   },
+  { "sainnhe/gruvbox-material" },
 
   -- Load theme
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight-night",
+      colorscheme = "gruvbox-material",
     },
   },
 }
