@@ -1,3 +1,3 @@
 # 💤 LazyVim settings
 
-## Theme: Tokyonight-moon
+## Theme: Everforest
