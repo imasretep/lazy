@@ -11,12 +11,16 @@ return {
 
     config = function()
       require("everforest").setup({
-        -- Config here
+        background = "hard",
+        italics = true,
+        transparent_background_level = 2,
       })
     end,
   },
   { "sainnhe/gruvbox-material" },
   { "rmehri01/onenord.nvim" },
+  { "navarasu/onedark.nvim" },
+  { "AlexvZyl/nordic.nvim" },
 
   -- Load theme
   {
