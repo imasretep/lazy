@@ -1,3 +1,3 @@
 # 💤 LazyVim settings
 
-## Theme: Everforest
+## Theme: Gruvbox-material
