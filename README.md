@@ -1,3 +1,3 @@
 # 💤 LazyVim settings
 
-## Theme: Gruvbox-material
+## Theme: Tokyonight - night
