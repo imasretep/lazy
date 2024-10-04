@@ -3,5 +3,4 @@
 ## Theme: Tokyonight - night
 
 ### Plugins
-Twilight
-Zenmode
+Twilight, Zenmode
